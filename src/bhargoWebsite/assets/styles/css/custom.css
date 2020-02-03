@@ -1,0 +1,360 @@
+.main-header .logo {
+    width: 140px;
+}
+
+.main-header .logo img {
+    width: 100%;
+    height: auto;
+}
+
+.intro1Wrap {
+    padding: 130px 0;
+}
+
+.signin-signup {
+    background-color: #ffc107;
+    color: #3f51b5!important;
+    padding: 7px 15px;
+    border-radius: 18px;
+}
+
+
+/*signup*/
+
+.UserVerif:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: #3f51b5;
+}
+
+.UserVerif {
+    color: #3f51b5;
+}
+
+.main-header.header-fixed-default {
+    position: fixed;
+    width: 100%;
+    background: white;
+    box-shadow: none;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0px;
+}
+
+.landing-indigo .overlay {
+    background: #2d3c4a!important;
+}
+
+.main-header.header-fixed-default .nav-link {
+    color: #2d3c4a!important;
+}
+
+.landing-indigo .header-fixed {
+    background: #fff!important;
+}
+
+.main-header.header-fixed-default .signin-signup {
+    color: #fff!important;
+    background-color: #2d3c4a!important;
+}
+
+.intro1Wrap {
+    padding: 59px 0;
+}
+
+.text-15 {
+    font-size: 15px;
+}
+
+.btn.btn-outline-white {
+    color: #fff;
+    background-color: #ff7405;
+    background-image: none;
+    border-color: #fd8f38!important;
+}
+
+.btn.btn-outline-white:hover {
+    background-color: #fd8f38!important;
+}
+
+.intro1Buttons a:hover {
+    color: #fff!important;
+}
+
+.intro1Buttons {
+    text-align: center!important;
+    /*   margin-top: 5px;
+      margin-bottom: 15px;*/
+    margin-bottom: -75px;
+}
+
+.intro1Buttons a {
+    margin-left: 210px!important;
+}
+
+.best-wrap .card .card-body .left_icon i {
+    left: 21px;
+    font-size: 85px;
+}
+
+.card-text:last-child {
+    margin-bottom: 0;
+    text-align: justify;
+}
+
+.landing_wrap .card-title {
+    margin-bottom: .5rem;
+    font-size: 13px!important;
+}
+
+.best-wrap .card .card-body .left_icon i {
+    top: -12%;
+}
+
+.card-body {
+    flex: 1 1 auto;
+    padding: 0;
+}
+
+.landing_wrap .card-title {
+    margin-bottom: 0.1rem;
+    font-size: 18px;
+}
+
+.services-wrap .service-wrap .card .card-header {
+    border-color: transparent;
+    height: 120px!important;
+}
+
+.w-39 {
+    width: 39%!important;
+}
+
+.img_width {
+    max-width: 200%!important;
+}
+
+.pd_1 {
+    padding: 0.1rem!important;
+}
+
+.user-name {
+    font-size: 13px!important;
+    text-align: center;
+    /* vertical-align: middle;*/
+    /* padding-top: 8%;*/
+}
+
+.w-20 {
+    width: 27%!important;
+}
+
+.mr_5 {
+    margin-top: 15px!important;
+}
+
+.section-header p {
+    max-width: 487px;
+}
+
+.section-header .p1 {
+    max-width: 617px;
+}
+
+.landing-indigo .btn-gradient {
+    background: #fc7203;
+}
+
+.landing-indigo .btn-gradient:hover {
+    background: #fc7203;
+}
+
+.btn {
+    margin-bottom: 8px;
+}
+
+.landing-indigo .bg-gradient {
+    background: #fc7203;
+}
+
+.headding {
+    padding: 6px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #2d3c4a;
+    margin-bottom: 38px;
+}
+
+.main-header .menu-toggle div {
+    background: #0b0b0b;
+}
+
+.footer_wrap {
+    background-color: #2d3c4a;
+    color: #fff;
+}
+
+.clr_white {
+    color: #fff;
+}
+
+.landing-indigo .eva {
+    background-image: linear-gradient(-29deg, #f8f9fa, #f8f9fa);
+}
+
+.lead ul li a {
+    color: #fff;
+}
+
+.contact-form-wrap .form-wrap form.form .form-group .form-control {
+    padding: 24px 0;
+    padding-left: 65px;
+    background: #fff;
+    border-radius: 20px;
+    border: 1px solid #c7bfbf;
+}
+
+.fa {
+    color: #fc7203!important;
+}
+
+@media only screen and (max-width:762px) {
+    .mr_5 {
+        margin-bottom: 0px!important;
+        margin-top: -35px!important;
+    }
+    .intro1Buttons a {
+        margin-left: 10px!important;
+    }
+    .text-20 {
+        font-size: 18px;
+    }
+    .best-wrap .card .card-body .left_icon i {
+        left: 0px;
+        font-size: 85px;
+    }
+}
+
+@media (max-width: 995px) {
+    .landing-indigo .navbar-collapse {
+        background: #fc7203;
+    }
+}
+
+@media (max-width: 767px) {
+    .main-header .navbar-nav .nav-item {
+        margin-right: 8px;
+        border-bottom: 1px solid #0e0c0c;
+        width: 100%;
+        text-align: left;
+    }
+    .nav-link {
+        display: block;
+        padding: .1rem 1rem;
+    }
+    .ml-5 {
+        margin-left: 0rem!important;
+    }
+    .main-header.header-fixed-default .nav-link {
+        color: #fff!important;
+    }
+    .services-wrap {
+        padding: 0px 0;
+    }
+    .best-wrap .card .card-body .left_icon i {
+        top: 0%;
+    }
+}
+
+
+/* -----signin ----- */
+
+.auth-logo img {
+    height: initial;
+}
+
+.auth-layout-wrap {
+    background-color: #dadada;
+    background-image: url('../../images/improve-login-bg.png');
+    background-repeat: repeat;
+    background-size: initial;
+}
+
+.login-bg-image {
+    background-size: cover;
+    background-color: #FFF3E0;
+    background-image: url('../../images/bg-login.png');
+}
+
+.btn-signIn {
+    color: #fff;
+    background-color: #FF9800;
+    border-color: #d86306;
+}
+
+.btn-outline-signIn,
+.btn-signIn {
+    border-color: #dc8b14;
+}
+
+.btn-outline-signIn:hover,
+.btn-signIn:hover {
+    background: #d86306;
+    box-shadow: 0 8px 25px -8px #FF9800;
+    border-color: #d86306;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active {
+    color: #fff;
+    background-color: #fc760a;
+    border-color: #fda259;
+}
+
+.btn-signIn:not(:disabled):not(.disabled).active:focus,
+.btn-signIn:not(:disabled):not(.disabled):active:focus,
+.show>.btn-signIn.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem #fd913a;
+}
+
+.login-products-list li {
+    margin-bottom: 10px;
+    margin-left: 1rem;
+}
+
+.login-products-list img {
+    width: 1.8rem;
+}
+
+.login-products-list i {
+    padding: 8px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.login-products-list span {
+    font-weight: bold;
+    font-weight: bold;
+    padding: .4rem .6rem;
+    border-radius: 4px;
+    background-color: rgba(177, 84, 7, 0.56);
+    color: #fff;
+    margin-left: 0.5rem;
+    font-size: .8rem;
+}
+
+.login-products-list span:before {
+    font-family: FontAwesome;
+    content: "\f0d9";
+    font-weight: 900;
+    position: relative;
+    left: -1rem;
+}
+
+@media (max-width: 767px) {
+    .auth-layout-wrap .auth-content {
+        margin-top: 75px;
+        width: 100%;
+    }
+}

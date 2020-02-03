@@ -1,0 +1,62 @@
+<!-- Pre Loader Strat  -->
+<div class="loadscreen" id="preloader">
+    <div class="loader spinner-bubble spinner-bubble-primary">
+    </div>
+</div>
+<!-- Pre Loader end  -->
+<div class="app-landing-wrap landing_wrap">
+    <div id="landing_wrap" class="landing-indigo">
+
+        <!--=============== Header start ================-->
+        <div class="main-header header-fixed-default" id="home-header">
+            <nav class="navbar container w-100 navbar-expand-lg navbar-transparent bg-transparent">
+                <div class="logo" [routerLink]="'/home'">
+                    <img src="assets/images/logoWhite.png" alt="" />
+                </div>
+
+                <div class="menu-toggle navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div style="margin: auto"></div>
+                    <div class="header-part-right">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a class="scroll-to nav-link m-2" href="#">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="scroll-to nav-link m-2" href="#features-wrap">Products</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="scroll-to nav-link m-2" href="#services-wrap">Create</a>
+                            </li>
+
+                            <!--   <li class="nav-item">
+                          <a class="scroll-to nav-link m-2" href="#works-wrap">Choose Plan</a>
+                      </li> -->
+                            <li class="nav-item">
+                                <a class="scroll-to nav-link m-2" href="#contacts-wrap">Get in Touch</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link m-2 pl-3 pr-3 signin-signup" [routerLink]="'/login'">Sign Up / Sign In</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+
+        <!--=============== Header End ================-->
+        <!-- ============ Main content start ============= -->
+        <div class=" main-content-wrap ">
+
+            <router-outlet></router-outlet>
+
+        </div>
+        <!-- ============ Main content End ============= -->
+    </div>
+</div>
