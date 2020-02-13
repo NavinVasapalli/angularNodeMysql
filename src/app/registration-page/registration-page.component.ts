@@ -16,13 +16,19 @@ export class RegistrationPageComponent  {
 
 
 
-subitClick(){
+// subitClick(){
+// debugger;
+// console.log(this.regOrgName.Org_Name,this.regOrgName.Org_Type,this.regOrgName.Primary_Person_Name,this.regOrgName.No_of_Employees,this.regOrgName.Email,this.regOrgName.Mobile_Number,this.regOrgName.Fax );
 
-console.log(this.regOrgName.Org_Name,this.regOrgName.Org_Type,this.regOrgName.Primary_Person_Name,this.regOrgName.Email,this.regOrgName.Mobile_Number,this.regOrgName.Fax );
+// }
+
+regOrgSubmit(orgRegister){
 
 
+console.log(orgRegister);
 
 }
+
 
 
 }
