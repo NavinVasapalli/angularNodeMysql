@@ -1,5 +1,5 @@
 export class organizationcreation {
-
+  
     Org_Name: string;
     Org_Type: string;
     Primary_Person_Name: string;

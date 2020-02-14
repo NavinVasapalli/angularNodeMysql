@@ -6,13 +6,12 @@
                     <div class="pl-3 pr-3 pb-2 pt-3 " style="background-image: url(assets/images/bg-login.png);">
                         <h2 class="font-weight-bold">Organization Creation</h2>
                     </div>
-
                 </div>
                 <div class="col-md-6">
                     <div class="p-4">
                         <div class="form-group">
                             <label for="OrganizationName">Organization Name *</label>
-                            <input id="OrganizationName" name="OrganizationName" [(ngModel)]="regOrgName.Org_Name" #OrganizationName="ngModel"
+                            <input id="OrganizationName" name="OrganizationName" [(ngModel)]="regOrgDetails.Org_Name" #OrganizationName="ngModel"
                                 
                                 class="form-control form-control-rounded signin-form-ctrl-bg" type="text" required>
                             <div *ngIf="OrganizationName.invalid && (OrganizationName.dirty || OrganizationName.touched)"
@@ -23,7 +22,7 @@
                         <div class="form-group">
                             <label for="OrganizationIndustry">Organization Industry *</label>
                             <input id="OrganizationIndustry" name="OrganizationIndustry" #OrganizationIndustry="ngModel"
-                                [(ngModel)]="this.regOrgName.Org_Type"
+                               [(ngModel)]="regOrgDetails.Org_Type"
                                 class="form-control form-control-rounded signin-form-ctrl-bg" type="text" required>
 
                             <div *ngIf="OrganizationIndustry.invalid && (OrganizationIndustry.dirty || OrganizationIndustry.touched)"
@@ -34,7 +33,7 @@
                         <div class="form-group">
                             <label for="PrimaryPersonName">Primary Person Name *</label>
                             <input id="PrimaryPersonName" name="PrimaryPersonName" #PrimaryPersonName="ngModel"
-                                [(ngModel)]="this.regOrgName.Primary_Person_Name"
+                            [(ngModel)]="regOrgDetails.Primary_Person_Name"
                                 class="form-control form-control-rounded signin-form-ctrl-bg" type="text" required>
 
                             <div *ngIf="PrimaryPersonName.invalid &&(PrimaryPersonName.dirty || PrimaryPersonName.touched)"
@@ -45,7 +44,7 @@
 
                         <div class="form-group">
                             <label for="NoOfEmployees">No of Employees *</label>
-                            <select id="NoOfEmployees" [(ngModel)]="regOrgName.No_of_Employees" name="NoOfEmployees"
+                            <select id="NoOfEmployees" [(ngModel)]="regOrgDetails.No_of_Employees" name="NoOfEmployees"
                                 class="form-control form-control-rounded signin-form-ctrl-bg">
                                 <option value="1">1-10</option>
                                 <option value="2">11-50</option>
@@ -65,7 +64,7 @@
 
                         <div class="form-group">
                             <label for="Email">E-mail *</label>
-                            <input id="Email" name="Email" [(ngModel)]="this.regOrgName.Email" #Email="ngModel"
+                            <input id="Email" name="Email"[(ngModel)]="regOrgDetails.Email" #Email="ngModel"
                                 class="form-control form-control-rounded signin-form-ctrl-bg" type="text" required>
 
                             <div *ngIf="Email.invalid && (Email.dirty || Email.touched)" class="pt-1">
@@ -76,7 +75,7 @@
                         <div class="form-group">
                             <label for="MobileNumber">Mobile Number.*</label>
                             <label class="pull-right UserVerif">User Verification </label>
-                            <input id="MobileNumber" name="MobileNumber" [(ngModel)]="regOrgName.Mobile_Number"
+                            <input id="MobileNumber" name="MobileNumber" [(ngModel)]="regOrgDetails.Mobile_Number"
                                 #MobileNumber="ngModel" class="form-control form-control-rounded signin-form-ctrl-bg"
                                 type="text" required>
                             <div *ngIf="MobileNumber.invalid && (MobileNumber.dirty || MobileNumber.touched)"
@@ -99,7 +98,7 @@
 
                         <div class="form-group">
                             <label for="Fax">Fax.</label>
-                            <input id="Fax" name="Fax" [(ngModel)]="this.regOrgName.Fax" #fax="ngModel"
+                            <input id="Fax" name="Fax" [(ngModel)]="regOrgDetails.Fax" #fax="ngModel"
                                 class="form-control form-control-rounded signin-form-ctrl-bg" type="text" required>
                         </div>
                     </div>
